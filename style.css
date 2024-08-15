@@ -1,0 +1,35 @@
+:root{
+    background-color: blueviolet;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    margin: 0px;
+    padding: 0px 0px;
+
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: bisque;
+}
+
+.imgSection{
+    /* display: flex; */
+    width: 100px;
+    background-color: pink;
+}
+
+.formSection{
+    /* display: flex; */
+    width: 100px;
+    background-color: blue;
+}
