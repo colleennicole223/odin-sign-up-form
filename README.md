@@ -52,7 +52,7 @@ Will update password validation with JS at later date 📆
 
 ### Useful resources
 
-- [stackoverflow - Using .otf fonts on web browsers](https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers)
+- [stackoverflow](https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers) - Using .otf fonts on web browsers
 
 ## Author
 
