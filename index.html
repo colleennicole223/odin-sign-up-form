@@ -6,21 +6,49 @@
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<main>
-    <body>
-        <div class="imgSection">
-            <h1>test1</h1>
-            <!-- <h4>Photo by <a href="https://unsplash.com/@frostroomhead?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rodion Kutsaiev</a> on <a href="https://unsplash.com/photos/bokeh-light-Jizs4Av7_Wo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            </h4> -->
+
+<body>
+    <div class="imgSection">
+        <div class="logo">
+            <img src="design\odin-lined.png" alt="Odin Logo">
+            <h5>ODIN</h5>
         </div>
-        
-        <div class="formSection">
-            <h1>test2</h1>
-            <!-- <form>
-                <label>Name</label>
-                <input>
-            </form> -->
+        <h4>Photo by <a href="https://unsplash.com/@frostroomhead?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rodion Kutsaiev</a> on <a href="https://unsplash.com/photos/bokeh-light-Jizs4Av7_Wo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </h4>
+
+    </div>
+    
+    <div class="formSection">
+        <div class="formContent">
+            <h1>Welcome, we are excited to have you in our community!</h1>
+            <div class="formTile">
+                <h2>Let's get started</h2>
+                <form>
+                    <div class="formColumn">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name="firstName">
+                    
+                        <label for="emailAddress">EMAIL ADDRESS</label>
+                        <input type="email" id="emailAddress">
+
+                        <label for="password">PASSWORD</label>
+                        <input type="password">
+                    </div>
+
+                    <div class="formColumn">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName">
+                    
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" pattern="\d{3}[\-]?\d{3}[\-]?\d{4}">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password">
+                    </div>
+                </form>
+            </div>
+            <button><h2>Create Account</h2></button>
+            <h3>Already have an account?<span class="textLink"> Log in</span></h3>
         </div>
-    </body>
-</main>
+    </div>
+</body>
 </html>
