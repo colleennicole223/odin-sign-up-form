@@ -20,30 +20,39 @@ This is a solution to the [Sign-up Form challenge on The Odin Project](https://w
 ### Screenshot
 
 #### Final Screenshot
-
+![](./screenshot-final.png)
 
 
 ### Links
 
-
+- Solution URL: [https://github.com/colleennicole223/odin-sign-up-form](https://github.com/colleennicole223/odin-sign-up-form)
+- Live Site URL: [https://colleennicole223.github.io/odin-sign-up-form/](https://colleennicole223.github.io/odin-sign-up-form/)
 
 ## My process
 
 ### Built with
-
-
+- HTML
+  - Forms 📄
+  - Pattern Validation
+- CSS
+  - Flex Containers 
+  - Custom Properties 
+  - Background Image 
 
 ### What I learned
 
+- Applying pattern validations to inputs 
+- Using background image, can set to 'cover' and will automatically scale to fit the height
+- How to import .otf fonts using @font-face in CSS
 
 
 ### Continued development
 
-
+Will update password validation with JS at later date 📆
 
 ### Useful resources
 
-
+- [stackoverflow - Using .otf fonts on web browsers](https://stackoverflow.com/questions/3245141/using-otf-fonts-on-web-browsers)
 
 ## Author
 
@@ -53,3 +62,6 @@ This is a solution to the [Sign-up Form challenge on The Odin Project](https://w
 
 
 ## Acknowledgments
+
+- Photo by [Rodion Kutsaiev](https://unsplash.com/@frostroomhead?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/bokeh-light-Jizs4Av7_Wo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+        
